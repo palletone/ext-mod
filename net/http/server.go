@@ -29,7 +29,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/github.com/palletone/ext-mod/net/http/httpguts"
+	"golang.org/x/net/http/httpguts"
 )
 
 // Errors used by the HTTP server.

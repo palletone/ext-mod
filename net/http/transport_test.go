@@ -43,7 +43,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/github.com/palletone/ext-mod/net/http/httpguts"
+	"golang.org/x/net/http/httpguts"
 )
 
 // TODO: test 5 pipelined requests with responses: 1) OK, 2) OK, Connection: Close

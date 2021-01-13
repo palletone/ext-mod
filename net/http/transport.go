@@ -30,8 +30,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/github.com/palletone/ext-mod/net/http/httpguts"
-	"golang.org/x/github.com/palletone/ext-mod/net/http/httpproxy"
+	"golang.org/x/net/http/httpguts"
+	"golang.org/x/net/http/httpproxy"
 )
 
 // DefaultTransport is the default implementation of Transport and is
@@ -74,7 +74,7 @@ const DefaultMaxIdleConnsPerHost = 2
 // Transport uses HTTP/1.1 for HTTP URLs and either HTTP/1.1 or HTTP/2
 // for HTTPS URLs, depending on whether the server supports HTTP/2,
 // and how the Transport is configured. The DefaultTransport supports HTTP/2.
-// To explicitly enable HTTP/2 on a transport, use golang.org/x/github.com/palletone/ext-mod/net/http2
+// To explicitly enable HTTP/2 on a transport, use golang.org/x/net/http2
 // and call ConfigureTransport. See the package docs for more about HTTP/2.
 //
 // Responses with status codes in the 1xx range are either handled
@@ -331,7 +331,7 @@ func (t *Transport) onceSetNextProtoDefaults() {
 	}
 
 	// If they've already configured http2 with
-	// golang.org/x/github.com/palletone/ext-mod/net/http2 instead of the bundled copy, try to
+	// golang.org/x/net/http2 instead of the bundled copy, try to
 	// get at its http2.Transport value (via the "https"
 	// altproto map) so we can call CloseIdleConnections on it if
 	// requested. (Issue 22891)

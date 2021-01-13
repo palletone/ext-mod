@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/github.com/palletone/ext-mod/net/http/httpguts"
+	"golang.org/x/net/http/httpguts"
 )
 
 // ResponseRecorder is an implementation of http.ResponseWriter that

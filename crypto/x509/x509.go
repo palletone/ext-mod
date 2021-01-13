@@ -15,7 +15,7 @@ import (
 	"crypto/ed25519"
 	_ "crypto/sha1"
 	_ "crypto/sha512"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
 	"errors"

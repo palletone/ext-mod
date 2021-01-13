@@ -12,7 +12,7 @@ package main
 import (
 	"crypto/rand"
 	"github.com/palletone/ext-mod/crypto/x509"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/pem"
 	"math/big"
 	"strings"

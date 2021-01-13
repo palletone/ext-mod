@@ -7,7 +7,7 @@ package x509
 import (
 	"github.com/palletone/ext-mod/crypto/ecdsa"
 	"crypto/rand"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/pem"
 	"errors"
 	"fmt"

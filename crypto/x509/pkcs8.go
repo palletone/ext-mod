@@ -8,7 +8,7 @@ import (
 	"github.com/palletone/ext-mod/crypto/ecdsa"
 	"crypto/ed25519"
 	"github.com/palletone/ext-mod/crypto/rsa"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
 	"fmt"

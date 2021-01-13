@@ -16,7 +16,7 @@ import (
 	"crypto/rand"
 	"github.com/palletone/ext-mod/crypto/rsa"
 	"github.com/palletone/ext-mod/crypto/x509"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/pem"
 	"flag"
 	"log"

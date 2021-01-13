@@ -14,7 +14,7 @@ import (
 	"github.com/palletone/ext-mod/crypto/rsa"
 	_ "github.com/palletone/ext-mod/crypto/sha256"
 	_ "crypto/sha512"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/base64"
 	"encoding/hex"

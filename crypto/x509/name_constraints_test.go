@@ -9,7 +9,7 @@ import (
 	"github.com/palletone/ext-mod/crypto/ecdsa"
 	"github.com/palletone/ext-mod/crypto/elliptic"
 	"crypto/rand"
-	"github.com/palletone/ext-mod/crypto/x509/pkix"
+	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/hex"
 	"encoding/pem"

@@ -18,7 +18,7 @@ package sm4
 import (
 	"crypto/cipher"
 	"crypto/rand"
-	"github.com/palletone/ext-mod/crypto/x509"
+	"crypto/x509"
 	"encoding/pem"
 	"errors"
 	"io/ioutil"

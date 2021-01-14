@@ -14,7 +14,7 @@ golang.org/x/net/http/httpguts
 golang.org/x/net/http/httpproxy
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
-# golang.org/x/sys v0.0.0-20210113000019-eaf3bda374d2
+# golang.org/x/sys v0.0.0-20210113181707-4bcb84eeeb78
 ## explicit
 golang.org/x/sys/cpu
 # golang.org/x/text v0.3.3
